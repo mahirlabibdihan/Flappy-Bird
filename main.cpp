@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
 	iG::ITimer::iSet(0, pipeMove);
 	iG::ITimer::iSet(100, video);
 	iG::iInitialize("snake");
-	// glutFullScreen();
+	glutFullScreen();
 	glutSetCursor(GLUT_CURSOR_NONE);
 	glutMainLoop();
 }
