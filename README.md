@@ -1,1 +1,1 @@
-<img src="FlappyBird.jpg" alt="FlappyBird" width="600"/>
+<img src="FlappyBird.jpg" alt="FlappyBird" width="900"/>
