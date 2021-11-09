@@ -1,11 +1,11 @@
 #include "color.h"
-
 #define STB_IMAGE_IMPLEMENTATION
 #include "main.h"
 #include "Pipe.h"
 #include "Bird.h"
 #include "Grid.h"
 #include "Game_Details.h"
+
 
 Bird flappy;
 Pipe pipe;
@@ -88,5 +88,6 @@ int main(int argc, char *argv[])
 	glutFullScreen();
 	glutSetCursor(GLUT_CURSOR_NONE);
 	glutMainLoop();
+	return 0;
 }
 
